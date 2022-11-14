@@ -50,3 +50,15 @@ label{
     font-size: 20px;
     font-weight: bold;
 }
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 60%;
+    font-size: 20px;
+}
+
+.owner{
+    text-align: center;
+    margin-top: 10px;
+}

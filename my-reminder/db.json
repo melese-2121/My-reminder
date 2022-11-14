@@ -7,34 +7,16 @@
       "reminder": true
     },
     {
-      "id": 3,
-      "type": "Meeting with my families",
-      "time": "feb-2-2022",
-      "reminder": true
-    },
-    {
-      "type": "task one",
-      "time": "date one",
-      "reminder": false,
-      "id": 4
-    },
-    {
-      "type": "task one",
-      "time": "date oen",
-      "reminder": false,
-      "id": 5
-    },
-    {
       "type": "task two",
-      "time": "date tow",
-      "reminder": true,
-      "id": 6
+      "time": "date two ",
+      "reminder": false,
+      "id": 3
     },
     {
       "type": "task three",
       "time": "date three",
-      "reminder": false,
-      "id": 7
+      "reminder": true,
+      "id": 4
     }
   ]
 }

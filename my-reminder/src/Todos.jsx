@@ -156,6 +156,7 @@ const Todos = () => {
                 <label htmlFor="todo">Todo:</label>
                 <input name="todo" className="new-todo"
                     type="text"
+                    autoComplete="off"
                     placeholder="Add a new Todo"
                     onChange={(e) => { setnewTodo(e.target.value) }}
                     value={newTodo}
@@ -165,6 +166,7 @@ const Todos = () => {
                 <label htmlFor="when">When:</label>
                 <input 
                    className="new-todo" 
+                   autoComplete="off"
                    type="text" 
                    placeholder="When Todo" 
                    onChange={(e) => {setNewTodoWhen(e.target.value)}}
@@ -177,6 +179,7 @@ const Todos = () => {
                 <input 
                     className="new-todo" 
                     type="text" 
+                    autoComplete="off"
                     placeholder="Where Todo"
                     onChange={(e) => { setNewTodoWhere(e.target.value) }}
                     value={newTodoWhere}
@@ -193,6 +196,9 @@ const Todos = () => {
         </div>
     )
 }
+
+
+
 
 export default Todos;
 
